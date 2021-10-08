@@ -1,6 +1,10 @@
 module github.com/mypurecloud/terraform-provider-genesyscloud
 
 go 1.15
+//
+//replace (
+//	github.com/mypurecloud/platform-client-sdk-go/v55 v55.0.0 => /Users/ronanwatkins/genesys_src/repos/platform-client-sdk-common/output/purecloudgo
+//)
 
 require (
 	cloud.google.com/go/storage v1.15.0 // indirect

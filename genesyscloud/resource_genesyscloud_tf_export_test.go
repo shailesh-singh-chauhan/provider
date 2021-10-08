@@ -17,6 +17,16 @@ import (
 
 const exportTestDir = "../.terraform"
 
+func TestTest(t *testing.T) {
+	for ;; {
+		TestAccResourceTfExport(t)
+	}
+}
+
+func TestTestTest(t *testing.T) {
+	TestTest(t)
+}
+
 func TestAccResourceTfExport(t *testing.T) {
 	var (
 		exportResource1 = "test-export1"

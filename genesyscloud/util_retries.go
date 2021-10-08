@@ -2,6 +2,7 @@ package genesyscloud
 
 import (
 	"context"
+	"fmt"
 	"strings"
 	"time"
 
@@ -11,6 +12,10 @@ import (
 )
 
 func withRetries(ctx context.Context, timeout time.Duration, method func() *resource.RetryError) diag.Diagnostics {
+	return diag.FromErr(resource.RetryContext(ctx, timeout, method))
+}
+
+func withCountedRetries(ctx context.Context, timeout time.Duration, method func() *resource.RetryError) (int, diag.Diagnostics) {
 	return diag.FromErr(resource.RetryContext(ctx, timeout, method))
 }
 
@@ -51,8 +56,13 @@ func isVersionMismatch(resp *platformclientv2.APIResponse) bool {
 }
 
 func isStatus404(resp *platformclientv2.APIResponse) bool {
+	fmt.Println("isStatus404")
+	return true
 	if resp != nil && resp.StatusCode == 404 {
-		return true
+		//body, _ := ioutil.ReadAll(resp.Body)
+		//resp.RawBody
+		fmt.Println("it's 404", string(resp.RawBody))
+		return false
 	}
 	return false
 }

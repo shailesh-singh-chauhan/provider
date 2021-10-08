@@ -1,0 +1,691 @@
+[
+  {
+    "id": "1136dc7f-8989-4728-a6db-87169aa5073c",
+    "name": "new site ronan ui",
+    "version": 1,
+    "dateCreated": "2021-09-09T10:59:15.422Z",
+    "dateModified": "2021-09-09T10:59:15.422Z",
+    "modifiedBy": "dfc7d122-3989-42e1-baf6-bb2a7df44f5f",
+    "createdBy": "dfc7d122-3989-42e1-baf6-bb2a7df44f5f",
+    "state": "active",
+    "modifiedByApp": "public-api-v2/4914 (i-0edbb7bf0066ab683)",
+    "createdByApp": "public-api-v2/4914 (i-0edbb7bf0066ab683)",
+    "primarySites": [
+      {
+        "id": "d59c7459-de8d-4c50-94e4-ad8a7401a197",
+        "selfUri": "/api/v2/telephony/providers/edges/sites/d59c7459-de8d-4c50-94e4-ad8a7401a197"
+      }
+    ],
+    "secondarySites": [
+      {
+        "id": "d59c7459-de8d-4c50-94e4-ad8a7401a197",
+        "selfUri": "/api/v2/telephony/providers/edges/sites/d59c7459-de8d-4c50-94e4-ad8a7401a197"
+      }
+    ],
+    "primaryEdges": [
+      {
+        "id": "4fa7b64d-6415-4e9b-8303-cb0fb620879d",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/4fa7b64d-6415-4e9b-8303-cb0fb620879d"
+      },
+      {
+        "id": "ad8c311a-32ac-4911-a733-c9e2280606d4",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/ad8c311a-32ac-4911-a733-c9e2280606d4"
+      }
+    ],
+    "secondaryEdges": [
+      {
+        "id": "4fa7b64d-6415-4e9b-8303-cb0fb620879d",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/4fa7b64d-6415-4e9b-8303-cb0fb620879d"
+      },
+      {
+        "id": "ad8c311a-32ac-4911-a733-c9e2280606d4",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/ad8c311a-32ac-4911-a733-c9e2280606d4"
+      }
+    ],
+    "edges": [],
+    "edgeAutoUpdateConfig": {
+      "timeZone": "Africa/Cairo",
+      "rrule": "FREQ=DAILY",
+      "start": "2021-09-09T02:00:00.000",
+      "end": "2021-09-09T05:00:00.000"
+    },
+    "mediaRegionsUseLatencyBased": false,
+    "edgeGroup": {
+      "id": "5dda165a-7014-4047-8fce-a9187677307c",
+      "state": "active",
+      "managed": false,
+      "hybrid": false,
+      "selfUri": "/api/v2/telephony/providers/edges/edgegroups/5dda165a-7014-4047-8fce-a9187677307c"
+    },
+    "location": {
+      "id": "a9d5aae6-93b4-4307-8e31-cfc67084f4e8",
+      "name": "Default PCV Location",
+      "selfUri": "/api/v2/locations/a9d5aae6-93b4-4307-8e31-cfc67084f4e8"
+    },
+    "managed": false,
+    "mediaModel": "Cloud",
+    "coreSite": false,
+    "siteConnections": [],
+    "mediaRegions": ["us-east-1"],
+    "selfUri": "/api/v2/telephony/providers/edges/sites/1136dc7f-8989-4728-a6db-87169aa5073c"
+  },
+  {
+    "id": "77d3da28-c4d8-40da-8c47-4ab66d4c0501",
+    "name": "Indianapolis",
+    "version": 3,
+    "dateCreated": "2018-05-18T18:58:46.175Z",
+    "dateModified": "2021-03-19T01:34:37.003Z",
+    "createdBy": "873a36e6-26f6-4c49-909c-ce125b209abe",
+    "state": "active",
+    "modifiedByApp": "edge-provisioning-mediaModelScript",
+    "createdByApp": "public-api-v2/2184 (i-0165f642433826cfa)",
+    "primarySites": [],
+    "secondarySites": [],
+    "primaryEdges": [],
+    "secondaryEdges": [],
+    "edges": [
+      {
+        "id": "aede4a6b-8ae3-4add-9668-ccdc2f277461",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/aede4a6b-8ae3-4add-9668-ccdc2f277461"
+      }
+    ],
+    "edgeAutoUpdateConfig": {
+      "timeZone": "America/Indianapolis",
+      "rrule": "FREQ=DAILY",
+      "start": "2018-05-18T02:00:00.000",
+      "end": "2018-05-18T05:00:00.000"
+    },
+    "mediaRegionsUseLatencyBased": false,
+    "edgeGroup": {
+      "id": "31d82dff-c252-48c0-a315-c95f7d499b63",
+      "state": "active",
+      "managed": false,
+      "hybrid": false,
+      "selfUri": "/api/v2/telephony/providers/edges/edgegroups/31d82dff-c252-48c0-a315-c95f7d499b63"
+    },
+    "location": {
+      "id": "15dde698-6f00-4284-bc0d-46366bb74463",
+      "name": "Indianapolis",
+      "selfUri": "/api/v2/locations/15dde698-6f00-4284-bc0d-46366bb74463"
+    },
+    "managed": false,
+    "mediaModel": "Premises",
+    "coreSite": true,
+    "siteConnections": [],
+    "mediaRegions": ["us-east-1"],
+    "selfUri": "/api/v2/telephony/providers/edges/sites/77d3da28-c4d8-40da-8c47-4ab66d4c0501"
+  },
+  {
+    "id": "7e09e0a7-be01-4f65-8590-611a4ec98fce",
+    "name": "Test Site",
+    "version": 2,
+    "dateCreated": "2020-10-13T00:43:39.862Z",
+    "dateModified": "2021-03-19T01:34:37.106Z",
+    "createdBy": "3c57c76a-3e96-424a-a6c1-1706b64bf9dc",
+    "state": "active",
+    "modifiedByApp": "edge-provisioning-mediaModelScript",
+    "createdByApp": "public-api-v2/4250 (i-0d42652a11b795ecb)",
+    "primarySites": [],
+    "secondarySites": [],
+    "primaryEdges": [],
+    "secondaryEdges": [],
+    "edges": [],
+    "edgeAutoUpdateConfig": {
+      "timeZone": "America/New_York",
+      "rrule": "FREQ=DAILY",
+      "start": "2020-10-12T02:00:00.000",
+      "end": "2020-10-12T05:00:00.000"
+    },
+    "mediaRegionsUseLatencyBased": false,
+    "location": {
+      "id": "d614b7f2-b9a6-4379-bc1f-03810bbf9654",
+      "name": "Denver",
+      "selfUri": "/api/v2/locations/d614b7f2-b9a6-4379-bc1f-03810bbf9654"
+    },
+    "managed": false,
+    "mediaModel": "Premises",
+    "coreSite": false,
+    "siteConnections": [],
+    "mediaRegions": ["us-east-1"],
+    "selfUri": "/api/v2/telephony/providers/edges/sites/7e09e0a7-be01-4f65-8590-611a4ec98fce"
+  },
+  {
+    "id": "8e1f48fc-646b-49e5-9820-d958e40d3b15",
+    "name": "Ronan test site UI 2",
+    "version": 1,
+    "dateCreated": "2021-09-08T13:18:04.241Z",
+    "dateModified": "2021-09-08T13:18:04.241Z",
+    "modifiedBy": "dfc7d122-3989-42e1-baf6-bb2a7df44f5f",
+    "createdBy": "dfc7d122-3989-42e1-baf6-bb2a7df44f5f",
+    "state": "active",
+    "modifiedByApp": "public-api-v2/4914 (i-01ec62eedf7192c17)",
+    "createdByApp": "public-api-v2/4914 (i-01ec62eedf7192c17)",
+    "primarySites": [
+      {
+        "id": "d59c7459-de8d-4c50-94e4-ad8a7401a197",
+        "selfUri": "/api/v2/telephony/providers/edges/sites/d59c7459-de8d-4c50-94e4-ad8a7401a197"
+      }
+    ],
+    "secondarySites": [
+      {
+        "id": "d59c7459-de8d-4c50-94e4-ad8a7401a197",
+        "selfUri": "/api/v2/telephony/providers/edges/sites/d59c7459-de8d-4c50-94e4-ad8a7401a197"
+      }
+    ],
+    "primaryEdges": [
+      {
+        "id": "4fa7b64d-6415-4e9b-8303-cb0fb620879d",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/4fa7b64d-6415-4e9b-8303-cb0fb620879d"
+      },
+      {
+        "id": "ad8c311a-32ac-4911-a733-c9e2280606d4",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/ad8c311a-32ac-4911-a733-c9e2280606d4"
+      }
+    ],
+    "secondaryEdges": [
+      {
+        "id": "4fa7b64d-6415-4e9b-8303-cb0fb620879d",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/4fa7b64d-6415-4e9b-8303-cb0fb620879d"
+      },
+      {
+        "id": "ad8c311a-32ac-4911-a733-c9e2280606d4",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/ad8c311a-32ac-4911-a733-c9e2280606d4"
+      }
+    ],
+    "edges": [],
+    "edgeAutoUpdateConfig": {
+      "timeZone": "Africa/Cairo",
+      "rrule": "FREQ=DAILY",
+      "start": "2021-09-08T02:00:00.000",
+      "end": "2021-09-08T05:00:00.000"
+    },
+    "mediaRegionsUseLatencyBased": false,
+    "edgeGroup": {
+      "id": "5dda165a-7014-4047-8fce-a9187677307c",
+      "state": "active",
+      "managed": false,
+      "hybrid": false,
+      "selfUri": "/api/v2/telephony/providers/edges/edgegroups/5dda165a-7014-4047-8fce-a9187677307c"
+    },
+    "location": {
+      "id": "a9d5aae6-93b4-4307-8e31-cfc67084f4e8",
+      "name": "Default PCV Location",
+      "selfUri": "/api/v2/locations/a9d5aae6-93b4-4307-8e31-cfc67084f4e8"
+    },
+    "managed": false,
+    "mediaModel": "Cloud",
+    "coreSite": false,
+    "siteConnections": [],
+    "mediaRegions": ["us-east-1"],
+    "selfUri": "/api/v2/telephony/providers/edges/sites/8e1f48fc-646b-49e5-9820-d958e40d3b15"
+  },
+  {
+    "id": "cbbdb6e5-026a-4d5e-8e54-ed7d1f22d7dc",
+    "name": "site 0761adeb-1dfb-479c-b6a2-6a3fa399d7dc",
+    "description": "TestAccResourceSiteNumberPlans description 1",
+    "version": 3,
+    "dateCreated": "2021-10-06T15:35:10.398Z",
+    "dateModified": "2021-10-06T15:35:54.100Z",
+    "modifiedBy": "7de3af06-c0b3-4f9b-af45-72f4a14037cc",
+    "createdBy": "7de3af06-c0b3-4f9b-af45-72f4a14037cc",
+    "state": "active",
+    "modifiedByApp": "public-api-v2/5038 (i-0b5d344b39b384c19)",
+    "createdByApp": "public-api-v2/5038 (i-0fe661322e03fa1ec)",
+    "primarySites": [
+      {
+        "id": "d59c7459-de8d-4c50-94e4-ad8a7401a197",
+        "selfUri": "/api/v2/telephony/providers/edges/sites/d59c7459-de8d-4c50-94e4-ad8a7401a197"
+      }
+    ],
+    "secondarySites": [
+      {
+        "id": "d59c7459-de8d-4c50-94e4-ad8a7401a197",
+        "selfUri": "/api/v2/telephony/providers/edges/sites/d59c7459-de8d-4c50-94e4-ad8a7401a197"
+      }
+    ],
+    "primaryEdges": [
+      {
+        "id": "4fa7b64d-6415-4e9b-8303-cb0fb620879d",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/4fa7b64d-6415-4e9b-8303-cb0fb620879d"
+      },
+      {
+        "id": "ad8c311a-32ac-4911-a733-c9e2280606d4",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/ad8c311a-32ac-4911-a733-c9e2280606d4"
+      }
+    ],
+    "secondaryEdges": [
+      {
+        "id": "4fa7b64d-6415-4e9b-8303-cb0fb620879d",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/4fa7b64d-6415-4e9b-8303-cb0fb620879d"
+      },
+      {
+        "id": "ad8c311a-32ac-4911-a733-c9e2280606d4",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/ad8c311a-32ac-4911-a733-c9e2280606d4"
+      }
+    ],
+    "edges": [],
+    "mediaRegionsUseLatencyBased": false,
+    "edgeGroup": {
+      "id": "5dda165a-7014-4047-8fce-a9187677307c",
+      "state": "active",
+      "managed": false,
+      "hybrid": false,
+      "selfUri": "/api/v2/telephony/providers/edges/edgegroups/5dda165a-7014-4047-8fce-a9187677307c"
+    },
+    "location": {
+      "id": "950c5483-07f2-41a2-9da6-4c30a54e254f",
+      "name": "Terraform location991cc503-ddeb-4186-9652-7c129f4326a0",
+      "selfUri": "/api/v2/locations/950c5483-07f2-41a2-9da6-4c30a54e254f"
+    },
+    "managed": false,
+    "mediaModel": "Cloud",
+    "coreSite": false,
+    "siteConnections": [],
+    "mediaRegions": ["us-east-1"],
+    "selfUri": "/api/v2/telephony/providers/edges/sites/cbbdb6e5-026a-4d5e-8e54-ed7d1f22d7dc"
+  },
+  {
+    "id": "d0726887-92c6-456c-ab65-f80b4e41ff90",
+    "name": "My PCV Site",
+    "version": 4,
+    "dateCreated": "2020-04-13T17:19:10.784Z",
+    "dateModified": "2021-03-19T01:34:37.054Z",
+    "createdBy": "9ed7d9f6-0c59-4360-ac54-40dd35eb9c2f",
+    "state": "active",
+    "modifiedByApp": "edge-provisioning-mediaModelScript",
+    "createdByApp": "public-api-v2/3865 (i-072862e444b2ea9d5)",
+    "primarySites": [
+      {
+        "id": "d59c7459-de8d-4c50-94e4-ad8a7401a197",
+        "selfUri": "/api/v2/telephony/providers/edges/sites/d59c7459-de8d-4c50-94e4-ad8a7401a197"
+      }
+    ],
+    "secondarySites": [
+      {
+        "id": "d59c7459-de8d-4c50-94e4-ad8a7401a197",
+        "selfUri": "/api/v2/telephony/providers/edges/sites/d59c7459-de8d-4c50-94e4-ad8a7401a197"
+      }
+    ],
+    "primaryEdges": [
+      {
+        "id": "4fa7b64d-6415-4e9b-8303-cb0fb620879d",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/4fa7b64d-6415-4e9b-8303-cb0fb620879d"
+      },
+      {
+        "id": "ad8c311a-32ac-4911-a733-c9e2280606d4",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/ad8c311a-32ac-4911-a733-c9e2280606d4"
+      }
+    ],
+    "secondaryEdges": [
+      {
+        "id": "4fa7b64d-6415-4e9b-8303-cb0fb620879d",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/4fa7b64d-6415-4e9b-8303-cb0fb620879d"
+      },
+      {
+        "id": "ad8c311a-32ac-4911-a733-c9e2280606d4",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/ad8c311a-32ac-4911-a733-c9e2280606d4"
+      }
+    ],
+    "edges": [],
+    "edgeAutoUpdateConfig": {
+      "timeZone": "America/Denver",
+      "rrule": "FREQ=DAILY",
+      "start": "2020-04-13T02:00:00.000",
+      "end": "2020-04-13T05:00:00.000"
+    },
+    "mediaRegionsUseLatencyBased": false,
+    "edgeGroup": {
+      "id": "5dda165a-7014-4047-8fce-a9187677307c",
+      "state": "active",
+      "managed": false,
+      "hybrid": false,
+      "selfUri": "/api/v2/telephony/providers/edges/edgegroups/5dda165a-7014-4047-8fce-a9187677307c"
+    },
+    "location": {
+      "id": "d614b7f2-b9a6-4379-bc1f-03810bbf9654",
+      "name": "Denver",
+      "selfUri": "/api/v2/locations/d614b7f2-b9a6-4379-bc1f-03810bbf9654"
+    },
+    "managed": false,
+    "mediaModel": "Cloud",
+    "coreSite": false,
+    "siteConnections": [],
+    "mediaRegions": ["us-east-1"],
+    "selfUri": "/api/v2/telephony/providers/edges/sites/d0726887-92c6-456c-ab65-f80b4e41ff90"
+  },
+  {
+    "id": "d59c7459-de8d-4c50-94e4-ad8a7401a197",
+    "name": "PureCloud Voice - AWS",
+    "version": 3,
+    "dateCreated": "2020-04-13T17:07:06.173Z",
+    "dateModified": "2021-03-13T07:54:36.110Z",
+    "state": "active",
+    "modifiedByApp": "edge-provisioning/2547 (i-0e87aad7bb2306478)",
+    "createdByApp": "edge-provisioning/2232 (i-02035ba04b9e19bd1)",
+    "edges": [
+      {
+        "id": "4fa7b64d-6415-4e9b-8303-cb0fb620879d",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/4fa7b64d-6415-4e9b-8303-cb0fb620879d"
+      },
+      {
+        "id": "ad8c311a-32ac-4911-a733-c9e2280606d4",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/ad8c311a-32ac-4911-a733-c9e2280606d4"
+      }
+    ],
+    "edgeAutoUpdateConfig": {
+      "timeZone": "America/New_York",
+      "rrule": "FREQ=DAILY",
+      "start": "2016-07-01T00:00:00.000",
+      "end": "2016-07-01T05:00:00.000"
+    },
+    "mediaRegionsUseLatencyBased": false,
+    "edgeGroup": {
+      "id": "5dda165a-7014-4047-8fce-a9187677307c",
+      "state": "active",
+      "managed": false,
+      "hybrid": false,
+      "selfUri": "/api/v2/telephony/providers/edges/edgegroups/5dda165a-7014-4047-8fce-a9187677307c"
+    },
+    "location": {
+      "id": "a9d5aae6-93b4-4307-8e31-cfc67084f4e8",
+      "name": "Default PCV Location",
+      "selfUri": "/api/v2/locations/a9d5aae6-93b4-4307-8e31-cfc67084f4e8"
+    },
+    "managed": true,
+    "mediaModel": "Cloud",
+    "coreSite": true,
+    "siteConnections": [],
+    "mediaRegions": ["us-east-1"],
+    "selfUri": "/api/v2/telephony/providers/edges/sites/d59c7459-de8d-4c50-94e4-ad8a7401a197"
+  },
+  {
+    "id": "e9f5ceaa-9e44-4d66-ab53-fa5511dfa9b7",
+    "name": "Ronan test site UI 1",
+    "version": 1,
+    "dateCreated": "2021-09-08T10:03:48.146Z",
+    "dateModified": "2021-09-08T10:03:48.146Z",
+    "modifiedBy": "dfc7d122-3989-42e1-baf6-bb2a7df44f5f",
+    "createdBy": "dfc7d122-3989-42e1-baf6-bb2a7df44f5f",
+    "state": "active",
+    "modifiedByApp": "public-api-v2/4914 (i-0b88fc6b99c7cc0f0)",
+    "createdByApp": "public-api-v2/4914 (i-0b88fc6b99c7cc0f0)",
+    "primarySites": [
+      {
+        "id": "d59c7459-de8d-4c50-94e4-ad8a7401a197",
+        "selfUri": "/api/v2/telephony/providers/edges/sites/d59c7459-de8d-4c50-94e4-ad8a7401a197"
+      }
+    ],
+    "secondarySites": [
+      {
+        "id": "d59c7459-de8d-4c50-94e4-ad8a7401a197",
+        "selfUri": "/api/v2/telephony/providers/edges/sites/d59c7459-de8d-4c50-94e4-ad8a7401a197"
+      }
+    ],
+    "primaryEdges": [
+      {
+        "id": "4fa7b64d-6415-4e9b-8303-cb0fb620879d",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/4fa7b64d-6415-4e9b-8303-cb0fb620879d"
+      },
+      {
+        "id": "ad8c311a-32ac-4911-a733-c9e2280606d4",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/ad8c311a-32ac-4911-a733-c9e2280606d4"
+      }
+    ],
+    "secondaryEdges": [
+      {
+        "id": "4fa7b64d-6415-4e9b-8303-cb0fb620879d",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/4fa7b64d-6415-4e9b-8303-cb0fb620879d"
+      },
+      {
+        "id": "ad8c311a-32ac-4911-a733-c9e2280606d4",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/ad8c311a-32ac-4911-a733-c9e2280606d4"
+      }
+    ],
+    "edges": [],
+    "edgeAutoUpdateConfig": {
+      "timeZone": "Africa/Cairo",
+      "rrule": "FREQ=DAILY",
+      "start": "2021-09-08T02:00:00.000",
+      "end": "2021-09-08T05:00:00.000"
+    },
+    "mediaRegionsUseLatencyBased": false,
+    "edgeGroup": {
+      "id": "5dda165a-7014-4047-8fce-a9187677307c",
+      "state": "active",
+      "managed": false,
+      "hybrid": false,
+      "selfUri": "/api/v2/telephony/providers/edges/edgegroups/5dda165a-7014-4047-8fce-a9187677307c"
+    },
+    "location": {
+      "id": "a9d5aae6-93b4-4307-8e31-cfc67084f4e8",
+      "name": "Default PCV Location",
+      "selfUri": "/api/v2/locations/a9d5aae6-93b4-4307-8e31-cfc67084f4e8"
+    },
+    "managed": false,
+    "mediaModel": "Cloud",
+    "coreSite": false,
+    "siteConnections": [],
+    "mediaRegions": ["us-east-1"],
+    "selfUri": "/api/v2/telephony/providers/edges/sites/e9f5ceaa-9e44-4d66-ab53-fa5511dfa9b7"
+  },
+  {
+    "id": "fbefa3ae-1e4b-4b4b-912d-f0a9852a6b9a",
+    "name": "Home Office",
+    "version": 3,
+    "dateCreated": "2017-04-05T09:25:31.578Z",
+    "dateModified": "2021-03-19T01:34:36.937Z",
+    "state": "active",
+    "modifiedByApp": "edge-provisioning-mediaModelScript",
+    "createdByApp": "site-service",
+    "primarySites": [],
+    "secondarySites": [],
+    "primaryEdges": [],
+    "secondaryEdges": [],
+    "edges": [
+      {
+        "id": "224678e6-e015-47b0-9d1d-df3cafedfa2b",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/224678e6-e015-47b0-9d1d-df3cafedfa2b"
+      }
+    ],
+    "edgeAutoUpdateConfig": {
+      "timeZone": "America/Denver",
+      "rrule": "FREQ=DAILY",
+      "start": "2016-04-15T02:00:00.000",
+      "end": "2016-04-15T05:00:00.000"
+    },
+    "mediaRegionsUseLatencyBased": false,
+    "location": {
+      "id": "d614b7f2-b9a6-4379-bc1f-03810bbf9654",
+      "name": "Denver",
+      "selfUri": "/api/v2/locations/d614b7f2-b9a6-4379-bc1f-03810bbf9654"
+    },
+    "managed": false,
+    "mediaModel": "Premises",
+    "coreSite": true,
+    "siteConnections": [],
+    "mediaRegions": ["us-east-1"],
+    "selfUri": "/api/v2/telephony/providers/edges/sites/fbefa3ae-1e4b-4b4b-912d-f0a9852a6b9a"
+  },
+  {
+    "id": "fdf5883f-5e81-4b3e-b012-e913b9da4239",
+    "name": "walken, home, site",
+    "version": 2,
+    "dateCreated": "2021-07-23T13:41:54.813Z",
+    "dateModified": "2021-07-23T13:44:39.935Z",
+    "modifiedBy": "9ed7d9f6-0c59-4360-ac54-40dd35eb9c2f",
+    "createdBy": "9ed7d9f6-0c59-4360-ac54-40dd35eb9c2f",
+    "state": "active",
+    "modifiedByApp": "public-api-v2/4837 (i-017f2fe1dbf56c5c6)",
+    "createdByApp": "public-api-v2/4837 (i-0634fe6b0eeedb068)",
+    "primarySites": [
+      {
+        "id": "d59c7459-de8d-4c50-94e4-ad8a7401a197",
+        "selfUri": "/api/v2/telephony/providers/edges/sites/d59c7459-de8d-4c50-94e4-ad8a7401a197"
+      }
+    ],
+    "secondarySites": [
+      {
+        "id": "d59c7459-de8d-4c50-94e4-ad8a7401a197",
+        "selfUri": "/api/v2/telephony/providers/edges/sites/d59c7459-de8d-4c50-94e4-ad8a7401a197"
+      }
+    ],
+    "primaryEdges": [
+      {
+        "id": "4fa7b64d-6415-4e9b-8303-cb0fb620879d",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/4fa7b64d-6415-4e9b-8303-cb0fb620879d"
+      },
+      {
+        "id": "ad8c311a-32ac-4911-a733-c9e2280606d4",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/ad8c311a-32ac-4911-a733-c9e2280606d4"
+      }
+    ],
+    "secondaryEdges": [
+      {
+        "id": "4fa7b64d-6415-4e9b-8303-cb0fb620879d",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/4fa7b64d-6415-4e9b-8303-cb0fb620879d"
+      },
+      {
+        "id": "ad8c311a-32ac-4911-a733-c9e2280606d4",
+        "state": "active",
+        "physicalEdge": false,
+        "managed": false,
+        "offlineConfigCalled": false,
+        "selfUri": "/api/v2/telephony/providers/edges/ad8c311a-32ac-4911-a733-c9e2280606d4"
+      }
+    ],
+    "edges": [],
+    "edgeAutoUpdateConfig": {
+      "timeZone": "America/Denver",
+      "rrule": "FREQ=DAILY",
+      "start": "2021-07-23T02:00:00.000",
+      "end": "2021-07-23T05:00:00.000"
+    },
+    "mediaRegionsUseLatencyBased": false,
+    "edgeGroup": {
+      "id": "5dda165a-7014-4047-8fce-a9187677307c",
+      "state": "active",
+      "managed": false,
+      "hybrid": false,
+      "selfUri": "/api/v2/telephony/providers/edges/edgegroups/5dda165a-7014-4047-8fce-a9187677307c"
+    },
+    "location": {
+      "id": "d614b7f2-b9a6-4379-bc1f-03810bbf9654",
+      "name": "Denver",
+      "selfUri": "/api/v2/locations/d614b7f2-b9a6-4379-bc1f-03810bbf9654"
+    },
+    "managed": false,
+    "mediaModel": "Cloud",
+    "coreSite": false,
+    "siteConnections": [],
+    "mediaRegions": ["us-east-1"],
+    "selfUri": "/api/v2/telephony/providers/edges/sites/fdf5883f-5e81-4b3e-b012-e913b9da4239"
+  }
+]

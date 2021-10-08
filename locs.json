@@ -1,0 +1,62 @@
+[
+  {
+    "id": "c1565b47-0a1d-4e99-97fc-b965395f5844",
+    "name": "Default PCV Location",
+    "emergencyNumber": {
+      "e164": "+13178723000",
+      "number": "+1 317-872-3000",
+      "type": "elin"
+    },
+    "address": {
+      "city": "Indianapolis",
+      "country": "US",
+      "countryName": "United States",
+      "state": "IN",
+      "street1": "7601 Interactive Way",
+      "zipcode": "46278"
+    },
+    "state": "active",
+    "notes": "Default location used for PureCloud Voice Site",
+    "version": 2,
+    "addressVerified": true,
+    "addressStored": true,
+    "selfUri": "/api/v2/locations/c1565b47-0a1d-4e99-97fc-b965395f5844"
+  },
+  {
+    "id": "23eff12e-f88c-4482-99b3-25c05d1a38bf",
+    "name": "Indianapolis, IN",
+    "emergencyNumber": {
+      "e164": "+12015555555",
+      "number": "+1 201-555-5555",
+      "type": "default"
+    },
+    "address": {
+      "city": "Indianapolis",
+      "country": "US",
+      "countryName": "United States",
+      "state": "IN",
+      "street1": "100 Foobar Ln.",
+      "zipcode": "46112"
+    },
+    "state": "active",
+    "version": 2,
+    "addressVerified": false,
+    "selfUri": "/api/v2/locations/23eff12e-f88c-4482-99b3-25c05d1a38bf"
+  },
+  {
+    "id": "a2548b12-7ab0-46b9-8929-79d3d3f07117",
+    "name": "Reporting Location",
+    "address": {
+      "city": "Indianapolis",
+      "country": "US",
+      "countryName": "United States",
+      "state": "Indiana",
+      "street1": "7601 Interactive Way",
+      "zipcode": "46278"
+    },
+    "state": "active",
+    "version": 2,
+    "addressVerified": true,
+    "selfUri": "/api/v2/locations/a2548b12-7ab0-46b9-8929-79d3d3f07117"
+  }
+]
