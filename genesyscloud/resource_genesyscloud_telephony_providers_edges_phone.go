@@ -388,7 +388,6 @@ func updatePhone(ctx context.Context, d *schema.ResourceData, meta interface{}) 
 
 	phone, _, err := edgesAPI.PutTelephonyProvidersEdgesPhone(d.Id(), *updatePhoneBody)
 	if err != nil {
-		fmt.Println("failing in here")
 		return diag.Errorf("Failed to update phone %s: %s", name, err)
 	}
 
@@ -578,7 +577,7 @@ func buildSdkLines(d *schema.ResourceData, lineBaseSettings *platformclientv2.Do
 
 		lineId, err := getLineIdByPhoneId(d.Id(), api)
 		if err != nil {
-			log.Print(err)
+			log.Printf("Failed to retrieve ID for phone %s: %v", d.Id(), err)
 		} else {
 			line.Id = &lineId
 		}
@@ -619,7 +618,7 @@ func getLineIdByPhoneId(phoneId string, api *platformclientv2.TelephonyProviders
 	if phone.Lines != nil && len(*phone.Lines) > 0 {
 		return *(*phone.Lines)[0].Id, nil
 	}
-	return "", fmt.Errorf("Failed to retrieve ID for phone %s", phoneId)
+	return "", fmt.Errorf("Could not access line ID for phone %s", phoneId)
 }
 
 func buildSdkCapabilities(d *schema.ResourceData) *platformclientv2.Phonecapabilities {
